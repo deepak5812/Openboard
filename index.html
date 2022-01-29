@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBoard</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  
+    <!-- here i'm representing the toolsbar int he form of navbar  -->
+
+    <div class="outerdiv" id="outerdivId" style="max-width:fit-content;" >
+        <div class="tapme" id="tapmeId">
+            <div class="tapme"><img src="./images/tap-gesture.gif" id="tapmeImg"></div>
+        </div>
+        <div class="collection_of_tools" id="ctoolsId" style="display:none;">
+        <div class="pencil"><img src="./images/pencil.png" id="pencilImg">
+            <div class="size-box" style="display:none;">
+                <div  class="size1 size"></div>
+                <div  class="size2 size"></div>
+                <div  class="size3 size"></div>
+                <div  class="size4 size"></div>
+            </div>
+        </div>
+        <div class="line"><img src="./images/vector_line.png" id="lineImg"> 
+            <div class="size-box" style="display:none;">
+                <div  class="size1 size"></div>
+                <div  class="size2 size"></div>
+                <div  class="size3 size"></div>
+                <div  class="size4 size"></div>
+            </div>
+        </div>
+        <div class="eraser"><img src="./images/Eraser.jpg" id="eraserImg">
+            <div class="size-box" style="display:none;">
+                <div  class="size1 size"></div>
+                <div  class="size2 size"></div>
+                <div  class="size3 size"></div>
+                <div  class="size4 size"></div>
+            </div>
+        </div>
+        <div class="paint"><img src="./images/paint_bucket.png" id="paintImg">
+            <div id="menu" style="display:none;">
+                <div id="red"></div>
+                <div id="green"></div>
+                <div id="blue"></div>
+                <div id="black"></div>
+                <div id="yellow"></div>
+                <div id="purple"></div>
+            </div>
+        </div>
+        <div class="shapes"><img src="./images/shapes.png" id="shapesImg">  
+            <div id="shapesSubMenu" style="display:none;">
+                <div id="rectangleShape"><img src="./images/rec.svg" id="recImg"></div>
+                <div id="circleShape"><img src="./images/cir.svg" id="cirImg"></div>
+                <div id="triangleShape"><img src="./images/tri.png" id="triImg"></div>
+            </div></div>
+        <div class="Download"><img src="./images/download--v2.gif" class="DownloadImg"></div>
+        <div class="zoomIn"><img src="./images/zoom_in.png" id="zoomInImg"></div>
+        <div class="zoomOut"><img src="./images/zoom_out.png" id="zoomOutImg"></div>
+        <div id="cur"><img src="./images/undo.png" id="curImg"></div>
+        <div class="redo"><img src="./images/redo.png" class="redoImg"></div>  
+        </div></div>
+    </div>
+</div>
+
+<div class="spacing"></div>
+
+<canvas></canvas>
+
+<script type="text/javascript" src="./shapesAndLine.js"></script>
+</body>
+</html>
